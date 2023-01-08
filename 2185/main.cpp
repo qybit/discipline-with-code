@@ -7,15 +7,17 @@ class Solution
 public:
     int prefixCount(vector<string> &words, string pref)
     {
-        cout << 1 << endl;
-        return 0;
+        int ans = 0;
+        for (auto& word : words) {
+            if (word.rfind(pref, 0) == 0) ans ++;
+        }
+        return ans;
     }
 };
 
 void solve()
 {
     Solution *s = new Solution();
-    cout << 1 << endl;
 }
 int main()
 {

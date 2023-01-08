@@ -1,9 +1,8 @@
 # Prerequisites
 *.d
 
-# vscode
+# vscode config
 .vscode/*
-!.vscode/tasks.json
 
 # macOS env
 .DS_Store
