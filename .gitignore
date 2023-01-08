@@ -1,6 +1,15 @@
 # Prerequisites
 *.d
 
+# vscode
+.vscode/*
+!.vscode/tasks.json
+
+# macOS env
+.DS_Store
+main
+main.dSYM/
+
 # Compiled Object files
 *.slo
 *.lo
