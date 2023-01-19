@@ -3,7 +3,7 @@ extension String
 {
     // 根据索引获取
     func getByIndex(_ index: Int) -> Character {
-        let idx = self.index(self.startIndex, offsetBy: index);
+        let idx = self.index(self.startIndex, offsetBy: index)
         return self[idx]
     }
 
