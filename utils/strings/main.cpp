@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
 /**
  * 同Java String.split 方法
  *
@@ -32,13 +28,4 @@ vector<string_view> split(const string &src, char target)
         }
     }
     return ret;
-}
-
-void solve()
-{
-}
-int main()
-{
-    solve();
-    return 0;
 }
