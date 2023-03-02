@@ -4,6 +4,8 @@
 # vscode config
 .vscode/*
 
+template
+
 # macOS env
 .DS_Store
 main
